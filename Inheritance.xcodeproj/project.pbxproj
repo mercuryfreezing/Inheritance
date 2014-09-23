@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F40B0E8B19D09A2500B730D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B0E8A19D09A2500B730D5 /* main.m */; };
+		F40B0E9419D09A7F00B730D5 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B0E9319D09A7F00B730D5 /* Animal.m */; };
+		F40B0E9719D09AF200B730D5 /* Lion.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B0E9619D09AF200B730D5 /* Lion.m */; };
+		F40B0E9A19D09B7700B730D5 /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B0E9919D09B7700B730D5 /* Tiger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		F40B0E8719D09A2500B730D5 /* Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Inheritance; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40B0E8A19D09A2500B730D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40B0E9319D09A7F00B730D5 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		F40B0E9519D09A8D00B730D5 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		F40B0E9619D09AF200B730D5 /* Lion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lion.m; sourceTree = "<group>"; };
+		F40B0E9819D09B0300B730D5 /* Lion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lion.h; sourceTree = "<group>"; };
+		F40B0E9919D09B7700B730D5 /* Tiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
+		F40B0E9B19D09B8600B730D5 /* Tiger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				F40B0E8A19D09A2500B730D5 /* main.m */,
+				F40B0E9319D09A7F00B730D5 /* Animal.m */,
+				F40B0E9519D09A8D00B730D5 /* Animal.h */,
+				F40B0E9619D09AF200B730D5 /* Lion.m */,
+				F40B0E9819D09B0300B730D5 /* Lion.h */,
+				F40B0E9919D09B7700B730D5 /* Tiger.m */,
+				F40B0E9B19D09B8600B730D5 /* Tiger.h */,
 			);
 			path = Inheritance;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40B0E8B19D09A2500B730D5 /* main.m in Sources */,
+				F40B0E9A19D09B7700B730D5 /* Tiger.m in Sources */,
+				F40B0E9419D09A7F00B730D5 /* Animal.m in Sources */,
+				F40B0E9719D09AF200B730D5 /* Lion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
