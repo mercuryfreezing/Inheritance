@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Animal.h"
 
 @interface Tiger: Animal
 

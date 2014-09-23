@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Lion.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+
+        Lion *l1 = [[Lion alloc] init];
+        [l1 sleep];
+        NSLog(@"\n");
+        [l1 makeSound];
+
+
+
     }
     return 0;
 }

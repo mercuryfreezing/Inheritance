@@ -8,7 +8,20 @@
 
 #import "Lion.h"
 
+
 @implementation Lion
+
+//-(void) sleep;
+//-(void) eat: (NSMutableArray *) listOfFood;
+//-(void) makeSound;
+
+-(void) sleep{
+    NSLog(@"Lion Sleeping");
+}
+
+-(void) makeSound{
+    NSLog(@"Lion ROARING");
+}
 
 
 @end
