@@ -11,6 +11,8 @@
 @implementation Animal
 @synthesize legs;
 
+
+
 -(void) sleep{
 
     NSLog(@"Animal sleeping");

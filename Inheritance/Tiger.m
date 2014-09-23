@@ -10,4 +10,17 @@
 
 @implementation Tiger
 
+
+//-(void) sleep;
+//-(void) eat: (NSMutableArray *) listOfFood;
+//-(void) makeSound;
+
+-(void) sleep{
+    NSLog(@"Tiger is Sleeping");
+}
+
+-(void) makeSound{
+    NSLog(@"Tiger is ROARING");
+}
+
 @end
